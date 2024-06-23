@@ -21,11 +21,11 @@ The project is a Single-Page Web Application (SPA) that provides an API for trac
    
 10. Open a new Terminal for starting Client-Side.
 11. Navigate to the 'server' folder:
-   ```bash
+   
    cd client
 12. To install all the dependencies, execute the following command;
-   ```bash
+
    npm install
 13. To Start the Client, execute the following command;
-   ```bash
+
    npm start
