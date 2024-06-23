@@ -7,18 +7,25 @@ The project is a Single-Page Web Application (SPA) that provides an API for trac
 1. For executing the application on your device, Clone the repository.
 2. Open the downloaded folder in VSCode.
 3. Make sure you have NPM and Node.js installed on your local machine.
-4. Open the terminal in VSCode.
-5. Update the '.env' file with your JWT Secret Key, Salt Value, and Database name.
+4. Update the '.env' file present in the server folder with your JWT Secret Key, Salt Value, and Database name.
+5. Open the VSCode Terminal for starting Server-Side.
 6. Navigate to the 'server' folder:
    ```bash
    cd server
-7. 
 8. To install all the dependencies, execute the following command;
    ```bash
    npm install
 9. To Start the Server, execute the following command;
    ```bash
    npm start
-
-10. Right click on the 'index.js' file in the 'client' folder and select the option 'Open with Live Server'.
-11. Make sure you have 'Live Server' extension downloaded in your VSCode to run the client in a user-friendly manner.
+   
+10. Open a new Terminal for starting Client-Side.
+11. Navigate to the 'server' folder:
+   ```bash
+   cd client
+12. To install all the dependencies, execute the following command;
+   ```bash
+   npm install
+13. To Start the Client, execute the following command;
+   ```bash
+   npm start
