@@ -1,25 +1,23 @@
 # RTC-Task
-Single Page Web-Application for 3D Ball Tracking
 
-# RTC-League_Take-Home-Project
-
-The project is a a single-page web application (SPA) that provides an API for tracking the position of a 3D-spahere in 3D space using three.js library. The application also have a web-based dashboard for displaying the ball's position in real-time with the help of Web Sockets. Moreover, the user-friendly interface for login/signup allows users to register as Ball Monitor.
+The project is a Single-Page Web Application (SPA) that provides an API for tracking the position of a 3D-sphere in 3D space using the three.js library. The application also has a web-based dashboard for displaying the Ball's real-time positions with the help of Web Sockets. Moreover, the user-friendly interface for Login and Signup allows users to register as Ball Monitors.
 
 ## Installation
 
-1. For installing the application on your device, first of all clone the repository.
+1. For executing the application on your device, Clone the repository.
 2. Open the downloaded folder in VSCode.
-3. Make sure you have MySQL2 and Node.js installed in your local machine.
-4. Also make sure to install the following dependaencies in your project: mysql2, express, dotenv, cors, nodemon, ws, three
-5. Update the '.env' file with hostname, user, password and database name according to your own MySQL database made in your local machine.
-6. Open the terminal in VSCode.
-7. Navigate to the 'server' folder:
+3. Make sure you have NPM and Node.js installed on your local machine.
+4. Open the terminal in VSCode.
+5. Navigate to the 'server' folder:
    ```bash
    cd server
-8. Run the 'app.js' file
+6. Update the '.env' file with your JWT Secret Key, Salt Value, and Database name.
+7. To install all the dependencies, execute the following command;
    ```bash
-   nodemon app.js
-   OR
-   node app.js
-9. Right click on the 'index.js' file in the 'client' folder and select the option 'Open with Live Server'.
-10. Make sure you have 'Live Server' extension downloaded in your VSCode to run the client in a user-friendly manner.
+   npm install
+8. To Start the Server, execute the following command;
+   ```bash
+   npm start
+
+10. Right click on the 'index.js' file in the 'client' folder and select the option 'Open with Live Server'.
+11. Make sure you have 'Live Server' extension downloaded in your VSCode to run the client in a user-friendly manner.
