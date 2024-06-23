@@ -25,7 +25,9 @@ The project is a Single-Page Web Application (SPA) that provides an API for trac
     cd client
 12. To install all the dependencies, execute the following command;
     ```bash
-   npm install
+    npm install
 14. To Start the Client, execute the following command;
-   ```bash
-   npm start
+    ```bash
+    npm start
+
+# Happy Learning!!!
