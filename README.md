@@ -30,4 +30,4 @@ The project is a Single-Page Web Application (SPA) that provides an API for trac
     ```bash
     npm start
 
-# Happy Learning!!!
+## Happy Learning!!!
